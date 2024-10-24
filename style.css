@@ -1,0 +1,88 @@
+html, body {
+  color: black;
+  background-color: red;
+  margin: 3px;
+  margin-bottom: 30px;
+  font-family: "Teko", serif; 
+  
+}
+
+.inicio{
+background: white;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  font-size: 30px;
+  border-radius: 100px;
+  box-shadow: 2px 5px 5px gray;
+}
+
+header{
+ font-family: "Orbitron", sans-serif; 
+ color: white;
+  display: flex;
+  position: relative;
+  margin: 20px;
+  padding: 0px;
+  font-size: 80px;
+  border-bottom: solid 2px white;
+}
+p{
+  text-align: justify;
+}
+
+.video{
+  margin-rigth:50px;
+  alingn-items: center;
+}
+
+header img{
+  width: 200px;
+  height: 200px;
+  margin-left: 400px;
+}
+.batata{
+ align-content: center;
+  padding-left: 20px;
+}
+
+h1{
+  font-size: 40px;
+  color: white(134,86,134);
+  border-bottom: solid 3px white 
+}
+
+.clipes{
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+.clipes img{
+  height: 220px;
+  opacity:0.5;
+}
+
+.clipes img:hover{
+  opacity: 1.0;
+  border: solid 4px white;
+  box-shadow: 2px 4px 4px gray;
+}
+
+footer{
+  font-family: "Orbitron", sans-serif; 
+  color: white;
+  align-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 1em;
+  padding-bottom: 40px;
+  font-size: 1.3rem;
+  display: block;
+  margin: 0 auto;
+  padding-left: 450px;
+  background-color: red;
+}
+
